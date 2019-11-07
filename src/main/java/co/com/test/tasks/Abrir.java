@@ -1,24 +1,29 @@
 package co.com.test.tasks;
 
-import co.com.test.userinterface.GoogleTraductorPage;
+import co.com.test.userinterface.ChoucairHomePage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Open;
 
-
+/**
+ * Created by Candado on 05/11/2019.
+ */
 public class Abrir implements Task{
 
-    private GoogleTraductorPage googleTraductorPage;
+    private ChoucairHomePage choucairHomePage;
 
-
-    public static Abrir LaPaginaDeGoogle() {
-        return Tasks.instrumented(Abrir.class);
-    }
 
     @Override
     public <T extends Actor> void performAs(T actor) {
-        actor.attemptsTo(Open.browserOn(googleTraductorPage));
+
+        actor.attemptsTo(Open.browserOn(choucairHomePage));
 
     }
+
+    public static Abrir LaPaginaDeChoucair() {
+
+        return Tasks.instrumented(Abrir.class);
+    }
 }
+
