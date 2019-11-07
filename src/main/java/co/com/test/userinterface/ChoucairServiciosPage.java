@@ -16,10 +16,17 @@ public class ChoucairServiciosPage extends PageObject {
     public static final Target TITULO_VALIDACION = Target.the("El titulo para validar la prueba")
             .located(By.xpath("//h2[@class='elementor-heading-title elementor-size-large']"));
 
-    public static final Target BOTON_LEERMAS = Target.the("El boton de leer mas")
-            .located(By.xpath("//a[@class='elementor-button-link elementor-button elementor-size-xs']"));
+    public static final Target BOTON_COMO_LO_HACEMOS = Target.the("El boton de Cómo lo hacemos")
+            .located(By.xpath("//div[@class='elementor-image-box-content']//h3[@class='elementor-image-box-title']//a[@href='#hacemos']"));
 
+    public static final Target PALABRAS_VALIDACION = Target.the("las palabras para validar la tarea")
+            .located(By.xpath("//section[@data-id='27c5b64']//div[@class='elementor-widget-container']//h2[@class='elementor-heading-title elementor-size-large']"));
 
+    public static final Target BOTON_PORTAFOLIO = Target.the("El boton de Portafolio de servicios")
+            .located(By.xpath("//div[@class='elementor-image-box-content']//h3[@class='elementor-image-box-title']//a[@href='#portafolio']"));
+
+    public static final Target ELTITULO_VALIDACION = Target.the("las palabras para validar la tarea")
+            .located(By.xpath("//section[@data-id='7e37d7b']//div[@class='elementor-widget-container']//h2[@class='elementor-heading-title elementor-size-large']"));
 
 
 }
