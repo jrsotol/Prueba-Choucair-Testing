@@ -6,9 +6,7 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Open;
 
-/**
- * Created by Candado on 05/11/2019.
- */
+
 public class Abrir implements Task{
 
     private ChoucairHomePage choucairHomePage;

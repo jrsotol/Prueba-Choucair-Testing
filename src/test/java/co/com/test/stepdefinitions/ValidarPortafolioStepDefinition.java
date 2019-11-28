@@ -27,8 +27,8 @@ public class ValidarPortafolioStepDefinition {
 
     }
 
-    @Cuando("^validar que el botón de Portafolio de servicios hace lo especificado$")
-    public void validarQueElBotónDePortafolioDeServiciosHaceLoEspecificado() throws Exception {
+    @Cuando("^validar que el botón de Portafolio de soluciones hace lo especificado$")
+    public void validarQueElBotónDePortafolioDeSolucionesHaceLoEspecificado() throws Exception {
 
         usuario.attemptsTo(EntrarPortafolio.Vinculo());
 

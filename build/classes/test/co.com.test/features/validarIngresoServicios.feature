@@ -11,4 +11,4 @@
    Escenario: Validar el ingreso a la sección de servicios desde el Home Page de Choucair Testing
      Dado que usuario quiere ingresar a la pagina de Choucair Testing
      Cuando el ingrese y se dirija a revisar los servicios que ofrecen
-     Entonces el deberia ver el Portafolio de Soluciones ofrecidos en pantalla
+     Entonces el deberia ver el Capacidades ofrecidos en pantalla

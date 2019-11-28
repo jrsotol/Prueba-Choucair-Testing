@@ -5,9 +5,7 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Text;
 
-/**
- * Created by Candado on 07/11/2019.
- */
+
 public class ElTitulo implements Question{
 
 

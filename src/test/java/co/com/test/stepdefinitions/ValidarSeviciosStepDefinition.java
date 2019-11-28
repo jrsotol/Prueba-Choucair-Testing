@@ -14,9 +14,7 @@ import net.thucydides.core.annotations.Managed;
 import org.hamcrest.Matchers;
 import org.openqa.selenium.WebDriver;
 
-/**
- * Created by Candado on 06/11/2019.
- */
+
 public class ValidarSeviciosStepDefinition {
 
     @Managed(driver = "chrome")

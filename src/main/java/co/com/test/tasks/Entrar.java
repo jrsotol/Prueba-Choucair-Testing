@@ -6,9 +6,7 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 
-/**
- * Created by Candado on 06/11/2019.
- */
+
 public class Entrar implements Task{
 
 
